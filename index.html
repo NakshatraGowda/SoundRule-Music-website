@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@700&family=Island+Moments&family=Josefin+Sans:ital@1&family=Poppins:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>SoundRule</title>
+</head>
+
+<body>
+
+
+
+    <nav class="navigation-bar">
+        <!-- logo -->
+        <h2 class="logo">SoundRule</h2>
+        <!-- Search bar -->
+
+        <div class="search-box">
+            <input class="search-txt" type="text" name="" placeholder="What Do You Want To Listen To?">
+            <button type="button" class="btn"><i class="fa-solid fa-magnifying-glass"
+                    aria-hidden="true"></i></i></button>
+        </div>
+
+        <!-- User login -->
+        <i id="user" class="fa-solid fa-user"></i>
+
+
+        <!-- notification icon-->
+        <i id="notify" class="fa-solid fa-bell"></i>
+    </nav>
+
+    <!-- main part -->
+    <div class="container">
+
+        <!-- left most part with all the icons -->
+        <div class="column item1">
+            <i id="icon1" class="fa fa-home" aria-hidden="true"></i>
+            <i id="icon2" class="fa-solid fa-heart"></i>
+            <i id="icon4" class="fa-sharp fa-solid fa-compact-disc"></i>
+            <i id="icon5" class="fa-solid fa-sliders"></i>
+        </div>
+
+        <!-- The one with playlists -->
+        <div class="column item2">
+            <div class="new_release">
+                <p>Popular New Release</p>
+            </div>
+            <div class="cards">
+                <div id="pnr1" class="onecard">
+                    <img src="./pictures/Latest songs/1.jpg" alt="">
+                    <p id="songName">Humraah</p>
+                    <p id="artist">Arijit Singh</p>
+                </div>
+                <div id="pnr2" class="onecard">
+                    <img src="./pictures/Latest songs/2.jpg" alt="">
+                    <p id="songName">Kesariya</p>
+                    <p id="artist">Arijit Singh</p>
+                </div>
+                <div id="pnr2" class="onecard">
+                    <img src="./pictures/Latest songs/3.jpg" alt="">
+                    <p id="songName">Thumkeshwari</p>
+                    <p id="artist">Sachin-Jigar</p>
+                </div>
+                <div id="pnr3" class="onecard">
+                    <img src="./pictures/Latest songs/4.jpg" alt="">
+                    <p id="songName">Alcoholia</p>
+                    <p id="artist">Vishal-Shekhar</p>
+                </div>
+                <!-- <div id="pnr4" class="onecard">
+                    <img src="./pictures/Latest songs/1.jpg" alt="">
+                </div> -->
+            </div>
+
+            <div class="new_release">
+                <p>Mood Booster</p>
+            </div>
+            <div class="cards">
+                <div id="mb1" class="twocard">
+                    <img src="./pictures/Genre-songs/1.jpg" alt="">
+                    <p id="songName">Alcoholia</p>
+                    <p id="artist">Vishal-Shekhar</p>
+                </div>
+                <div id="mb2" class="twocard">
+                    <img src="./pictures/Genre-songs/2.jpg" alt="">
+                    <p id="songName">Alcoholia</p>
+                    <p id="artist">Vishal-Shekhar</p>
+                </div>
+                <div id="mb3" class="twocard">
+                    <img src="./pictures/Latest songs/3.jpg" alt="">
+                    <p id="songName">Alcoholia</p>
+                    <p id="artist">Vishal-Shekhar</p>
+                </div>
+                <div id="mb4" class="twocard">
+                    <img src="./pictures/Latest songs/4.jpg" alt="">
+                    <p id="songName">Alcoholia</p>
+                    <p id="artist">Vishal-Shekhar</p>
+                </div>
+                <!-- <div id="pnr4" class="twocard">
+                    <img src="./pictures/Latest songs/1.jpg" alt="">
+                </div> -->
+            </div>
+        </div>
+
+        <!-- Image container -->
+        <div class="column item3">
+            <img src="./pictures/homepic.jpg" alt="">
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,208 @@
+
+
+/* Navbar */
+
+nav {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-top: -20px;
+    padding-top: none;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo {
+    background: -webkit-linear-gradient(#0E86D4,#D9008F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size: 35px;
+    font-weight: 800;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Island Moments', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    width: 30%;
+}
+
+.search-box
+{
+    width: 100%;
+    max-width: 500px;
+    background-image: linear-gradient(to bottom right, #abcee6,#cc52a3);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    
+}
+
+.search-box input
+{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 5px 5px;
+    font-size: 15px;
+    color: black;
+}
+
+::placeholder
+{
+    color: #2c2876;
+}
+
+.btn
+{
+    border: 0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: white;
+    cursor: pointer;
+}
+
+#user
+{
+    margin-left: auto;
+    justify-content: start;
+}
+
+#notify
+{
+    margin-left: 3%;
+}
+
+/* Splitting screen into three parts */
+.container
+{
+    display: flex;
+    height: 85vh;
+}
+
+
+
+/* Left most logos */
+.item1
+{
+    height: 100%;
+    width: 5%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(#0E86D4,#D9008F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#icon1
+{
+    height: 20%;
+    font-size: 30px;
+}
+
+#icon2
+{
+    height: 20%;
+    font-size: 30px;
+}
+
+#icon3
+{
+    height: 20%;
+    font-size: 30px;
+}
+
+#icon4
+{
+    height: 20%;
+    font-size: 30px;
+}
+
+#icon5
+{
+    height: 20%;
+    font-size: 30px;
+}
+
+/* Playlist grid */
+.item2
+{
+    height: 100%;
+    width: 60%;
+}
+
+.new_release p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-style: italic;
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.cards
+{
+    display: flex;
+    height: 40vh;
+    width: 100%;
+    margin-top: 0%;
+    overflow-x: scroll;
+    justify-content: space-around;
+}
+
+.cards::-webkit-scrollbar
+{
+    display: none;
+}
+.cards .onecard img
+{
+    height: 60%;
+    width: 80%;
+    padding-right: 5px;
+    margin-top: 5%;
+}
+
+p#songName
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+p#artist
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+
+
+.cards .twocard img
+{
+    height: 60%;
+    width: 100%;
+    padding-right: 5px;
+    margin-top: 5%;
+}
+
+
+
+
+/* Image on the right */
+.item3
+{
+    height: 100%;
+    width: 30%;
+}
+
+.item3 img
+{
+    height: 100%;
+    width: 100%;
+}
+
+
+
